@@ -1,4 +1,4 @@
-# Catálogo de Livraria
+# Bookly
 
 ![NodeJS](https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -38,8 +38,8 @@ API REST com operações de CRUD para livros e autores e relacionamento entre es
 ## Instalação
 
 ```bash
-git clone https://github.com/caiolucasbittencourt/catalogo-de-livraria.git
-cd catalogo-de-livraria
+git clone https://github.com/caiolucasbittencourt/bookly.git
+cd bookly
 npm install
 ```
 
@@ -85,7 +85,7 @@ npm run docker:build
 Para Mongo local com Docker, use:
 
 ```env
-DB_CONNECTION_STRING=mongodb://mongo:27017/catalogo-de-livraria
+DB_CONNECTION_STRING=mongodb://mongo:27017/bookly
 ```
 
 ## Scripts
@@ -157,4 +157,4 @@ tests/
 
 ## Licença
 
-Distribuído sob a licença MIT. Consulte o arquivo `LICENSE`.
+Este projeto está licenciado sob a licença [MIT](https://github.com/caiolucasbittencourt/gerenciador-de-links/blob/main/LICENSE).
